@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="_index.master.cs" Inherits="Admin_index" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="~/Css/style.css" type="text/css" rel="stylesheet">
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+
+    <div class="header">
+	<div class="navbar">
+		<div class="logo">这里是Logo</div>
+		<div class="logout"><a href="../Logout.aspx">登出</a></div>
+	</div>
+</div>
+<div class="aside">
+	<ul>
+		<a href="UserManage.aspx"><li>用户管理</li></a>
+		<a href="CarManage.aspx"><li>车辆管理</li></a>
+	</ul>
+</div>
+<div class="container">
+    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+    </asp:ContentPlaceHolder>
+</div>
+<div class="footer">
+	CoptRight <strong>2016</strong> Version <strong>0.0.1</strong> Design By <strong>XX</strong>
+</div>
+
+        
+    </div>
+    </form>
+</body>
+</html>

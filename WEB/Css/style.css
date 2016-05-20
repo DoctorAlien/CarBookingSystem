@@ -1,0 +1,35 @@
+*{margin:0;padding:0;}
+a{text-decoration:none}
+
+.pull-right{float:right;}
+.text-red{color:Red;}
+table{width:100%;text-align:left;border:solid 1px #ccc;border-radius:5px;padding:15px;}
+table td,.table th{width:auto;}
+
+.navbar{background-color:skyblue;height:66px;line-height:66px;}
+.logo{float:left;background-color:#367fa9;text-align:center;}
+.logout{float:right;}
+.aside{float:left;text-align:left;}
+.aside ul li{list-style:none;padding:15px 20px}
+.aside ul a{color:black;}
+.aside ul a:hover,.aside ul li:hover{background-color:black;color:white}
+.aside ul li:hover{border-left:solid 3px blue}
+.logout{padding:0 15px;}
+.logo,.aside{width:13%;}
+.container{float:left;min-width:87%;background-color:white;overflow:scroll}
+.context{padding:15px;}
+.container,.aside{min-height:900px;}
+.footer{background-color:gray;min-height:100%;line-height:350%;padding-left:15px;text-align:right;padding-right:15px;}
+
+.btn{padding:5px;border:solid 1px #ccc;border-radius:3px;color:Black;cursor:pointer;}
+.btn-primary{background-color:skyblue;}
+.btn-primary:hover{background-color:Blue;color:White;}
+.btn-block{width:100%;margin:3px;}
+
+.form-edit,.form-login{border:solid 1px #ccc;border-radius:5px;width:250px;padding:15px;}
+.form-group{margin:5px 0;width:100%;}
+.form-validate{width:100%}
+.form-group label{width:32px !important;}
+.form-login{margin:30px auto;text-align:center;}
+
+.validate-code{padding:5px 10px;font-size:larger;color:black;border:solid 1px #8c8c8c;border-radius:3px;}
